@@ -28,6 +28,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/vs985/bluetooth
 TARGET_KERNEL_CONFIG := lineageos_vs985_defconfig
 TARGET_REQUIRES_BUMP := true
 
+# HIDL
+DEVICE_MANIFEST_FILE += device/lge/vs985/configs/manifest.xml
+
 # NFC
 BOARD_NFC_CHIPSET := pn547
 BOARD_NFC_HAL_SUFFIX := msm8974
