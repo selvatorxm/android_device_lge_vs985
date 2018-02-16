@@ -11,3 +11,6 @@ telephony.lteOnCdmaDevice=1
 
 # Bluetooth
 qcom.bluetooth.soc=smd
+
+#AOKP Device Maintainers
+ro.aokp.maintainer="Mehmet KÖKLÜ (croatan)"
