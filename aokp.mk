@@ -1,13 +1,9 @@
 $(call inherit-product, device/lge/vs985/full_vs985.mk)
 
-# Inherit some common Aicp stuff.
-$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
+# Inherit some common Aokp stuff.
+$(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-PRODUCT_NAME := aicp_vs985
-
-# AICP Device Maintainers
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    DEVICE_MAINTAINERS="Mehmet KÖKLÜ (croatan)"
+PRODUCT_NAME := aokp_vs985
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
